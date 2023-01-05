@@ -1,0 +1,20 @@
+{
+    "mail": {
+        "title": "This is a sample of Test Framework!",
+        "body": "Body content!",
+        "fo": {
+            "email": "zhhot@hotmail.com",
+            "name": "Jason"
+        },
+        "to": [
+            {
+                "email": "lynn@hotmail.com",
+                "name": "Lynn"
+            },
+            {
+                "email": "simon@hotmail.com",
+                "name": "Simon"
+            }
+        ]
+    }
+}

@@ -1,0 +1,12 @@
+<mail>
+    <title>This is a sample of Test Framework!</title>
+    <body>Body content!</body>
+    <fo>
+        <email>zhhot@hotmail.com</email>
+        <name>Jason</name>
+    </fo>
+    <to>
+        <email>lynn@hotmail.com</email>
+        <name>Lynn</name>
+    </to>
+</mail>
