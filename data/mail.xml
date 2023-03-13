@@ -9,4 +9,8 @@
         <email>lynn@hotmail.com</email>
         <name>Lynn</name>
     </to>
+    <to>
+        <email>simon@hotmail.com</email>
+        <name>simon</name>
+    </to>
 </mail>

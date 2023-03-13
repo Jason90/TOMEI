@@ -1,7 +1,4 @@
 {
-    "url":"http://130.1.11.211:8091/GBG.HRBCN.Activate.Blaze.WebService/BlazeQueryService.asmx/Query",
-    "request": {
-        "applicationNumber": "202212151000002",
-        "sourceCode": "stag2"
-    }
+    "applicationNumber": "202212151000002",
+    "sourceCode": "stag2"
 }

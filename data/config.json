@@ -1,0 +1,11 @@
+{
+    "url":
+    {
+        "blaze":"http://130.1.11.211:8091/GBG.HRBCN.Activate.Blaze.WebService/BlazeQueryService.asmx/Query",
+        "activate_blacklist":"http://130.1.11.211:9009/access/aps",
+        "activate_risk":"http://130.1.11.211:9009/access/aps",
+        "activate_aps":"http://130.1.11.211:9009/access/aps",
+        "activate_incomplete":"http://130.1.11.211:9009/access/incomplete",
+        "CD1001":"http://130.1.11.249:9089/cbs/cd/CD1001"
+    }
+}

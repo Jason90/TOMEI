@@ -1,5 +1,7 @@
-from case.test_mail import test_sendmail
-from case.test_blaze import test_blaze
+from case.test_mail import *
+from case.test_blaze import *
+from case.test_activate import *
+from case.test_cd1001 import *
 import requests
 import json
 
@@ -8,17 +10,38 @@ import os
 path=os.getcwd() 
 sys.path.append(path) #用于pytest自动发现测试案例，跨包引用
 
+from objdict import ObjDict #https://pypi.org/project/objdict/0.4.2/
+
 # print(path)
 # print(sys.path)
 if __name__ == "__main__":
 
-    
-    test_blaze()
+    test_cds_cd1001()
+
+    # test_act_aps()
+
+    # test_blaze()
     
     # test_sendmail()
 
     pass
 
+
+def objDict_test():
+    with open(os.path.join(os.getcwd(),"data","test.json")) as f:
+        dt=ObjDict(f.read())
+        print (dt)
+    jsonStr='{"name": {"first": "fred", "last": "blogs" }}'
+
+    data = ObjDict(jsonStr)
+    name = data['name'] # works, but as 'data' is not a real 'dict' not ideal
+    name = data.name  # better
+    first_name = data.name.first
+    first_name = data["name"]["first"]  # works but again not ideal
+    data.name.first='Jason'
+    print(data.dumps())
+    print()
+    
 def http_test():
     url="http://130.1.11.211/GBG.HRBCN.Activate.Blaze.WebService/BlazeQueryService.asmx/Query"
 

@@ -1,0 +1,15 @@
+<service>
+    <service_header>
+        <chnl>100002</chnl>
+        <chnl_date>20170908</chnl_date>
+        <chnl_time>104532</chnl_time>
+        <chnl_flow>123</chnl_flow>
+        <rsp_code>000000</rsp_code>
+        <rsp_msg></rsp_msg>
+        <crypt>0</crypt>
+    </service_header>
+    <service_body>
+        <biz_no>2022042010000011</biz_no>
+        <card_no>62595280************</card_no>
+    </service_body>
+</service>
