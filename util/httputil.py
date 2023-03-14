@@ -6,4 +6,4 @@ def post(url,data=None,headers=None):
     if (headers==None):
         headers = {'Content-Type': 'application/x-www-form-urlencoded'}
 
-    return requests.post(url, data=data, headers=headers)
+    return requests.post(url, data=data.encode('utf8'), headers=headers)

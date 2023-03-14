@@ -6,7 +6,7 @@ from model.tom import TOM
 class CD1001(Base):
 
    def __init__(self):
-      super(CD1001,self).__init__("cd1001.xml")
+      super(CD1001,self).__init__("cbs/cd1001.xml")
 
    def query(self):
       headers = {'Content-Type': 'application/xml'}

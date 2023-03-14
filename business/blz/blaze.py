@@ -11,7 +11,7 @@ class Blaze(Base):
       super(Blaze,self).__init__("blaze.json")#todo:自动获取文件名
       
    def query(self):
-      self.response=httputil.post(TOM.config.url.blaze,self.data.dumps())
+      self.response=httputil.post(TOM.config.url.blaze,self.request.dumps())
       return self.response
    
    def getproperty(self,tag):

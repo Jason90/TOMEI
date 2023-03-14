@@ -1,7 +1,6 @@
-from business.cd1001 import CD1001
+from business.cbs.cd1001 import CD1001
 
-#todo: 目录结构增加cbs，或模块增加test_cbs_cd1001
-def test_cbs_cd1001():
+def test_cd1001():
     #1.实例化对象并从json模板文件中初始数据
     cd=CD1001()
     #2.按需修改初始化数据
@@ -9,7 +8,6 @@ def test_cbs_cd1001():
     #3.调用blaze接口
     response=cd.query()
     #4.检查点
-
     assert response.service.service_header.rsp_code=='000000'
     assert '朱洪章' in response.service.service_body.cust_name 
     print(response.dumps())

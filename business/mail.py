@@ -6,6 +6,6 @@ class Mail(Base):
       super(Mail,self).__init__("mail.json")
       
    def send(self):
-      print("send mail from "+self.data.mail.fo.name +" to "+self.data.mail.to[0].name)
+      print("send mail from "+self.request.mail.fo.name +" to "+self.request.mail.to[0].name)
       return True
    
