@@ -1,0 +1,25 @@
+<service>
+    <service_header>
+        <chnl>100002</chnl>
+        <chnl_date>20170908</chnl_date>
+        <chnl_time>104532</chnl_time>
+        <chnl_flow>123</chnl_flow>
+        <rsp_code>000000</rsp_code>
+        <rsp_msg>响应成功</rsp_msg>
+        <crypt>0</crypt>
+    </service_header>
+    <service_body>
+        <card_stat>X </card_stat>
+        <cust_name>朱洪章 先生                   </cust_name>
+        <credit_limit>000005000000</credit_limit>
+        <avlimt>000002446371</avlimt>
+        <age_amt>000002553629</age_amt>
+        <age_days>6</age_days>
+        <close_bal>000002553629</close_bal>
+        <cate_desc>个人卡              </cate_desc>
+        <tlmt_beg>00000000</tlmt_beg>
+        <tlmt_end>00000000</tlmt_end>
+        <temp_limit>000000000000</temp_limit>
+        <cate>0010</cate>
+    </service_body>
+</service>

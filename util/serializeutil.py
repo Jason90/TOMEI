@@ -26,8 +26,15 @@ def loadxml(file_name) ->ObjDict:
         return ObjDict(xmltojson(f.read()))
 
 def loadxmls(str) ->ObjDict:
-    return ObjDict(str)  
+    return ObjDict(xmltojson(str))  
 
 def xmltojson(str) ->str:
     dict = xmltodict.parse(str)
     return json.dumps(dict, ensure_ascii=False)
+
+def jsontoxml(str) ->str:
+    dict = json.loads(str)
+    return xmltodict.unparse(dict)
+
+def dicttoxml(dict) ->str:
+    return xmltodict.unparse(dict)

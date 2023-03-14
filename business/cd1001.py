@@ -1,5 +1,6 @@
 from business.base import Base
 from util import httputil
+from util import serializeutil
 from model.tom import TOM
 
 class CD1001(Base):
@@ -8,6 +9,9 @@ class CD1001(Base):
       super(CD1001,self).__init__("cd1001.xml")
 
    def query(self):
-      self.response=httputil.post(TOM.config.url.CD1001 ,self.data.dumps()) 
+      headers = {'Content-Type': 'application/xml'}
+      req=serializeutil.jsontoxml(self.request.dumps())
+      res=httputil.post(TOM.config.url.cd1001 ,req,headers) 
+      self.response=serializeutil.loadxmls(res.text) 
       return self.response
    

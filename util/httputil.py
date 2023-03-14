@@ -1,11 +1,9 @@
 import json
 import requests
 
-#todo:response to objDict
+#todo:response to objDict by whether content-type contains json
 def post(url,data=None,headers=None):
     if (headers==None):
         headers = {'Content-Type': 'application/x-www-form-urlencoded'}
 
-    response=requests.post(url, data=data, headers=headers)
-
-    return response
+    return requests.post(url, data=data, headers=headers)
