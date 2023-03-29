@@ -2,6 +2,8 @@ from case.test_mail import *
 from case.blz.test_blaze import *
 from case.act.test_ac1002 import *
 from case.cbs.test_cd1001 import *
+from case.cbs.test_cd1018 import *
+from case.cbs.test_cr0020 import *
 import requests
 import json
 
@@ -16,7 +18,7 @@ from objdict import ObjDict #https://pypi.org/project/objdict/0.4.2/
 # print(sys.path)
 if __name__ == "__main__":
 
-    test_cd1001()
+    test_cr0020()
 
     # test_act_aps()
 

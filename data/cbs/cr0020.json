@@ -1,0 +1,21 @@
+{
+    "service_header": {
+        "chnl_date": "20180802",
+        "chnl_flow": "22222",
+        "open_id": "100007",
+        "crypt": "0",
+        "chnl_time": "121212",
+        "chnl": "100003",
+        "rsp_code": "",
+        "rsp_msg": ""
+    },
+    "service_body": {
+        "biz_no": "2022101210000051",
+        "card_no": "6217524515900000967",
+        "password2": "E6798CAF0CF4D99CB2062F9A1013EED1",
+        "track2": "",
+        "check_flag": "",
+        "id_no": "",
+        "id_type": ""
+    }
+}

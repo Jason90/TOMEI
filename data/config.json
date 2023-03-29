@@ -6,6 +6,8 @@
         "activate_risk":"http://130.1.11.211:9009/access/aps",
         "ac1002":"http://130.1.11.211:9009/access/aps",
         "activate_incomplete":"http://130.1.11.211:9009/access/incomplete",
-        "cd1001":"http://130.1.11.249:9089/cbs/cd/CD1001"
+        "cd1001":"http://130.1.11.249:9089/cbs/cd/CD1001",
+        "cd1018":"http://130.1.11.249:9089/cbs/cd/CD1018",
+        "cr0020":"http://130.1.11.249:9089/cbs/cd/CR0020"
     }
 }
