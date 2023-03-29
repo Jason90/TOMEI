@@ -19,7 +19,6 @@ if __name__ == "__main__":
     test_cd1002()
     # test_act_aps()
     # test_blaze()
-    # test_sendmail()
     pass
 
 
