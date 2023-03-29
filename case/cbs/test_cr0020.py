@@ -8,8 +8,8 @@ def test_cr0020():
     #3.调用接口
     response=cd.query()
     #4.检查点
-    assert response.service.service_header.rsp_code=='000000'
-    assert response.service.service_body.cvv2 !='' 
+    assert response.service_header.rsp_code=='000000'
+    assert response.service_body.cvv2 !='' 
     print(response.dumps())
 
     
