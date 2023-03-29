@@ -18,7 +18,7 @@ def load(file_name) ->ObjDict:
         return loadxml(file_name)
 
 def loadjson(file_name) ->ObjDict:
-    with open(os.path.join(os.getcwd(),"data",file_name, encoding="UTF-8")) as f:
+    with open(os.path.join(os.getcwd(),"data",file_name),'r',encoding="UTF-8") as f:
         return ObjDict(f.read())  
 
 def loadxml(file_name) ->ObjDict:
@@ -30,6 +30,7 @@ def loadxmls(str) ->ObjDict:
 
 def xmltojson(str) ->str:
     dict = xmltodict.parse(str)
+
     return json.dumps(dict, ensure_ascii=False)
 
 def jsontoxml(str) ->str:

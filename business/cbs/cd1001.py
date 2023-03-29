@@ -6,12 +6,7 @@ from model.tom import TOM
 class CD1001(Base):
 
    def __init__(self):
-      super(CD1001,self).__init__("cbs/cd1001.xml")
+      super(CD1001,self).__init__("cbs/cd1001.xml", TOM.config.url.cd1001)
 
-   def query(self):
-      headers = {'Content-Type': 'application/xml'}
-      req=serializeutil.jsontoxml(self.request.dumps())
-      res=httputil.post(TOM.config.url.cd1001 ,req,headers) 
-      self.response=serializeutil.loadxmls(res.text) 
-      return self.response
+
    
