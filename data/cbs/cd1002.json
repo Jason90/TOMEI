@@ -1,0 +1,26 @@
+{
+    "service_header": {
+        "chnl_date": "20230320",
+        "open_id": "100007",
+        "crypt": "0",
+        "chnl_time": "104820",
+        "chnl": "100003",
+        "rsp_code": "",
+        "rsp_msg": ""
+    },
+    "service_body": {
+        "biz_no": "2023032010999011",
+        "card_product_no": "0103",
+        "sales_organisation_code": "3230130201",
+        "cust_level": "",
+        "group_sale_case_code": "",
+        "merchant_no": "",
+        "referral_name": "",
+        "is_master_card": "1",
+        "create_time": "2023-03-20",
+        "customer_segmentation":"",
+        "id_no":"141124199909170239",
+        "id_type":"01",
+        "acct_type":"1010"
+    }
+}

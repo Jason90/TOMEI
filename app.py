@@ -1,6 +1,7 @@
 from case.test_mail import *
 from case.blz.test_blaze import *
 from case.act.test_ac1002 import *
+from case.cbs.test_cd1002 import *
 from case.cbs.test_cd1001 import *
 import requests
 import json
@@ -9,21 +10,16 @@ import sys
 import os
 path=os.getcwd() 
 sys.path.append(path) #用于pytest自动发现测试案例，跨包引用
-
+error_list=[]
 from objdict import ObjDict #https://pypi.org/project/objdict/0.4.2/
-
 # print(path)
 # print(sys.path)
 if __name__ == "__main__":
-
-    test_cd1001()
-
+    # test_cd1001()
+    test_cd1002()
     # test_act_aps()
-
     # test_blaze()
-    
     # test_sendmail()
-
     pass
 
 
