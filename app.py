@@ -16,7 +16,7 @@ from objdict import ObjDict #https://pypi.org/project/objdict/0.4.2/
 # print(sys.path)
 if __name__ == "__main__":
     # test_cd1001()
-    test_cd1002()
+    # test_cd1002()
     # test_act_aps()
     # test_blaze()
     # test_sendmail()
