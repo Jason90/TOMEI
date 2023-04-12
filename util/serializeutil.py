@@ -35,7 +35,8 @@ def xmltojson(str) ->str:
 
 def jsontoxml(str) ->str:
     dict = json.loads(str)
-    return xmltodict.unparse(dict)
+    return xmltodict.unparse(dict).replace('<?xml version="1.0" encoding="utf-8"?>\n','')
+
 
 def dicttoxml(dict) ->str:
     return xmltodict.unparse(dict)
