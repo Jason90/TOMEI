@@ -5,14 +5,14 @@ import json
 from xml.etree.ElementTree import fromstring
 from xmljson import badgerfish as bf
 from model import JsonObject
-
+from util import fileutil
+from model.const import FileType
 
 from json import JSONEncoder
 
 
 def load(file_name) ->ObjDict:
-    ext=os.path.splitext(file_name)[1]
-    if ext==".json":
+    if fileutil.gettype(file_name)==FileType.json:
         return loadjson(file_name)
     else:
         return loadxml(file_name)
@@ -35,7 +35,8 @@ def xmltojson(str) ->str:
 
 def jsontoxml(str) ->str:
     dict = json.loads(str)
-    return xmltodict.unparse(dict)
+    return xmltodict.unparse(dict).replace('<?xml version="1.0" encoding="utf-8"?>\n','')
+
 
 def dicttoxml(dict) ->str:
     return xmltodict.unparse(dict)

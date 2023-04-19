@@ -3,6 +3,8 @@
 
 [business]-.->[util||http;regex;serializer]
 
-[business]-.->[model||jsonObject]
+[business]-.->[model||ObjDict]
 
 [model]-.->[data||json;xml]
+
+// xml=>dict=>json=>obj

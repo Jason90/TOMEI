@@ -1,26 +1,29 @@
+import os
 from util import serializeutil
 from util import httputil
 from model.tom import TOM
-import os
 from objdict import ObjDict
+from util import fileutil
+from model.const import FileType
+
 
 class Base:
-    
-    def __init__(self,name,url):
-        self.request=serializeutil.load(name)
-        self.name=name
-        self.url=url
+
+    def __init__(self, name, url):
+        self.dataType=fileutil.gettype(name)
+        self.headers= {'Content-Type': 'application/{0}'.format(self.dataType.name)}
+        self.request = serializeutil.load(name)
+        self.name = name
+        self.url = url
 
     def query(self):
-      ext_request=os.path.splitext(self.name)[1]
-      if ext_request==".json":
-        res=httputil.post(self.url,self.request.dumps(),
-                                    headers={'Content-Type':'application/json'})
-        self.response=ObjDict(res.text)
-        return self.response
-      else:
-        headers = {'Content-Type': 'application/xml'}
-        req=serializeutil.jsontoxml(self.request.dumps())
-        res=httputil.post(self.url ,req,headers) 
-        self.response=serializeutil.loadxmls(res.text) 
-        return self.response         
+        if self.dataType == FileType.json:
+            req = self.request.dumps()
+            res = httputil.post(self.url, req, self.headers)
+            self.response = ObjDict(res.text)
+            return self.response
+        else:
+            req = serializeutil.jsontoxml(self.request.dumps())
+            res = httputil.post(self.url, req, self.headers)
+            self.response = serializeutil.loadxmls(res.text)
+            return self.response
