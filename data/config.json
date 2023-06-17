@@ -2,13 +2,14 @@
     "url":
     {
         "blaze":"http://130.1.11.211:8091/GBG.HRBCN.Activate.Blaze.WebService/BlazeQueryService.asmx/Query",
-        "activate_blacklist":"http://130.1.11.211:9009/access/aps",
-        "activate_risk":"http://130.1.11.211:9009/access/aps",
+        "ac1000":"http://130.1.11.211:9009/access/blacklist",
+        "ac1001":"http://130.1.11.211:9009/access/risk",
         "ac1002":"http://130.1.11.211:9009/access/aps",
-        "activate_incomplete":"http://130.1.11.211:9009/access/incomplete",
+        "ac1003":"http://130.1.11.211:9009/access/incomplete",
         "cd1001":"http://130.1.11.249:9089/cbs/cd/CD1001",
-        "cd1002":"http://130.1.11.248:8080/cbs/ei/CD1002",
+        "cd1002":"http://130.1.11.248:8080/cbs/cd/CD1002",
         "cd1018":"http://130.1.11.249:9089/cbs/cd/CD1018",
-        "cr0020":"http://130.1.11.249:9089/cbs/cd/CR0020"
+        "cr0020":"http://130.1.11.249:9089/cbs/ei/CR0020",
+        "cr0021":"http://130.1.11.249:9089/cbs/ei/CR0021"
     }
 }

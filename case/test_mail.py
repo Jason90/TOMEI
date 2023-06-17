@@ -1,7 +1,6 @@
 from business.mail import Mail
 
 def test_sendmail():
-    #dt=BLL("mail").request
     #1.实例化对象并从json模板文件中初始数据
     mail=Mail()
     #2.按需修改初始化数据

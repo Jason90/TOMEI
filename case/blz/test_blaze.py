@@ -7,6 +7,7 @@ def test_blaze():
     blaze=Blaze()
     #2.按需修改初始化数据
     blaze.request.sourceCode='stag1'
+    blaze.request.Envelope.Body.Query.sourceCode='stag1'
     #3.调用blaze接口
     response=blaze.query()
     #4.检查点
