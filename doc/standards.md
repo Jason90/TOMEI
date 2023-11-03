@@ -11,11 +11,11 @@
    origin
 
 4. 项目依赖
-    - 外部依赖包统一放到packages.txt文件中
+    - 外部依赖包统一放到requirements.txt文件中
     - 更新依赖信息文件命名：
-    `pip freeze >./doc/packages.txt`
+    `pipreqs . --encoding=utf8 --force`
     - 安装依赖包命令：
-    `pip install -r ./doc/packages.txt`
+    `pip install -r requirements.txt`
 
 5. 测试框架
     参见architecture.yuml
@@ -27,5 +27,6 @@
    |文件|首字母小写|camel|
    |类|首字母大写|Pascal|
    |方法|首字母小写|camel|
-
-
+7. 字符串连接
+    使用操作符 "+" 连接字符串竟然耗时最少，其次是使用隐式参数的 format() 方式，耗时最长的是使用 "%" 符号
+    https://cloud.tencent.com/developer/news/88602

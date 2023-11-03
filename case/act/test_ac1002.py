@@ -5,7 +5,7 @@ def test_act_aps():
     #1.实例化对象并从json模板文件中初始数据
     act=AC1002()
     #2.按需修改初始化数据
-    act.request.SERVICE.SERVICE_BODY.APPLICATION_NUMBER='202303131000012'
+    # act.request.SERVICE.SERVICE_BODY.APPLICATION_NUMBER='202303131000012'
     #3.调用blaze接口
     response=act.query()
     #4.检查点

@@ -1,7 +1,7 @@
 {
     "url":
     {
-        "blaze":"http://130.1.11.211:8091/GBG.HRBCN.Activate.Blaze.WebService/BlazeQueryService.asmx/Query",
+        "blaze":"http://130.1.11.211:8091/GBG.HRBCN.Activate.Blaze.WebService/BlazeQueryService.asmx",
         "ac1000":"http://130.1.11.211:9009/access/blacklist",
         "ac1001":"http://130.1.11.211:9009/access/risk",
         "ac1002":"http://130.1.11.211:9009/access/aps",
