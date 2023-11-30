@@ -53,3 +53,4 @@ def test_blaze():
 
     assert blaze.get_property("ApplnMode")=="03",'Blaze响应缺少发卡模式元素'
 
+    print("Blaze接口自动化测试通过")

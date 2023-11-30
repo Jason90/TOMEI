@@ -5,6 +5,7 @@ from case.act.test_ac1001 import *
 from case.cbs.test_cd1001 import *
 from case.cbs.test_cd1018 import *
 from case.cbs.test_cr0020 import *
+from case.cbs.test_cr0021 import *
 
 import requests
 import json
@@ -18,8 +19,9 @@ from objdict import ObjDict #https://pypi.org/project/objdict/0.4.2/
 # print(path)
 # print(sys.path)
 if __name__ == "__main__":
-    test_cd1001()
-    test_blaze()
+    test_cr0021()
+    # test_cd1001()
+    # test_blaze()
     # print("Hello World!")
     
     # test_act_aps()
