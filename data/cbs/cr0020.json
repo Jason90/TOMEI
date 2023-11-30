@@ -5,7 +5,7 @@
         "open_id": "100007",
         "crypt": "0",
         "chnl_time": "121212",
-        "chnl": "100003",
+        "chnl": "100025",
         "rsp_code": "",
         "rsp_msg": ""
     },
@@ -15,7 +15,7 @@
         "password2": "E6798CAF0CF4D99CB2062F9A1013EED1",
         "track2": "",
         "check_flag": "",
-        "id_no": "",
-        "id_type": ""
+        "id_no": "220283198008136818",
+        "id_type": "01"
     }
 }
