@@ -1,11 +1,11 @@
-from business.act.ac1002 import AC1002
+from business.act.ac1001 import AC1001
 
 
-def test_act_aps():
+def test_act_risk():
     #1.实例化对象并从json模板文件中初始数据
-    act=AC1002()
+    act=AC1001()
     #2.按需修改初始化数据
-    # act.request.SERVICE.SERVICE_BODY.APPLICATION_NUMBER='202303131000012'
+    act.request.SERVICE.SERVICE_BODY.APPLICATION_NUMBER='2023031310000131'
     #3.调用blaze接口
     response=act.query()
     #4.检查点

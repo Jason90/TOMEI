@@ -2,7 +2,7 @@
     "service_header": {
         "chnl_date": "20180802",
         "chnl_flow": "22222",
-        "open_id": "100007",
+        "open_id": "100004",
         "crypt": "0",
         "chnl_time": "121212",
         "chnl": "100025",
@@ -12,10 +12,6 @@
     "service_body": {
         "biz_no": "2022101210000051",
         "card_no": "6217524515900000967",
-        "password2": "",
-        "track2": "",
-        "check_flag": "",
-        "id_no": "220283198008136818",
-        "id_type": "01"
+        "track2": ""
     }
 }

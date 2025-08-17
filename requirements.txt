@@ -1,0 +1,4 @@
+ObjDict==0.4.4
+Requests==2.31.0
+xmljson==0.2.1
+xmltodict==0.13.0

@@ -21,9 +21,12 @@ class Base:
             req = self.request.dumps()
             res = httputil.post(self.url, req, self.headers)
             self.response = ObjDict(res.text)
+            
             return self.response
         else:
             req = serializeutil.jsontoxml(self.request.dumps())
             res = httputil.post(self.url, req, self.headers)
-            self.response = serializeutil.loadxmls(res.text)
+            self.response =serializeutil.loadxmls(res.text)
+            self.res=res
+            
             return self.response

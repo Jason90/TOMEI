@@ -1,0 +1,435 @@
+<Application AppCardType="PO" ApplicationDate="2022-12-15" ApplicationID="202212151000002" ApplnMode="03" Apply_By="10" CreditFlowType="0" DecisionArea="offline" EsbErrorCode="" ExistCardHolderAppFlag="0" FICOCheckFlag="1" FastCredit="0" GZTCheckFlag="0" MUWFlag="0" PAIEChecKFlag="1" ReCheckFlag="0" SPID="" SourceCode="stag2" TheFirstCheckDFlag="0">
+	<Applicant Age="30" AgreeDownFlag="1" ApiInterfaceError="0" AppCounty="南岗区" AppState="黑龙江" ApplicantCity="哈尔滨" BasicIssuance="YZ" BirthDay="1992-12-15" BusinessAddressCity="哈尔滨" BusinessAddressCounty="南岗区" BusinessAddressState="黑龙江" BusinessPhoneAreaCode="089" BusinessPhoneExtension="" BusinessPhoneNumber="85963131" CarValue="0.0000" CardLevel="40" CheckOnlineFlag="1" ComAddress="黑龙江省哈尔滨市南岗区南四环西路89" CompanyCity="01" CompanyDepartment="业务" CompanyName="测试单位名称" ContactPersonMobile="18542133131" ContactPersonName="其他" ContactPersonPhoneNumber="" ContactPersonRelationShip="B" CoownerId1="" CoownerId2="" CustomerSegmentation="A0050" CustomerType="" DirectRelativeContactNumber="" DirectRelativeMobile="18594643316" DirectRelativeName="只想" DirectRelativeRelationShip="D" DivideArea="1" Education="4" EntranceTime="" EntrySource="YZ" Gender="M" GrossIncome="13.0000" GroupSaleCaseCode="" HomAddress="黑龙江省哈尔滨市南岗区计算机考试考试" HomeAddressCity="哈尔滨" HomeAddressCounty="南岗区" HomeAddressState="黑龙江" HomePhoneAreaCode="" HomePhoneNumber="" HouseLoanCount="0.0000" Housevalue="0.0000" HousingStatus="3" HuKouType="1" IC="A01" IDAddressCity="" IDAddressCounty="" IDAddressState="" IDAddressStreetAddress="" IDNumber="110101199912120354" IDType="01" IdCardValidEndDate="2027-01-01" ImportCustomerFlag="0" IncomeOfMonth="0.0000" IncomeOfYear="0.0000" IndustryAmount="80000" IndustryCode="A" IsCoincidentQualification="" IsHaveCompanyPhone="1" MainBusiness="" MainVehicleDate="1900-01-01" ManagerGrade="蓝信级" MaritalState="M" MerchantNo="" Mobile="13645433467" Name="普噗" OccupationLimit="0" OtherBankCurrentDeposits="0.0000" OtherBankDailyDeposits="0.0000" PC="A01" PCType="A" PositionCode="02" ProNo="0069" PropertySize="0.00" QulificationType="" QulificationYears="" ReferralMobile="" ResidenceAddress="" SSDate="0.00" SalaryInHrbb="0.0000" SalesOrgCode="230130022" SalesmanNumber="880111" SalesmanPhoneNumber="15901292367" SchoolNameChinese="" SocialSecBaseMoney="0" SocialSecCompany="" SponsorAmount="0.0000" StatementAddress="黑龙江省哈尔滨市南岗区南四环西路89" StatementAddressType="B" TradeAmount="300000" UnionPayBlacklist="0" VoluntartWithHold="1" YearsInPost="3.00">
+	</Applicant>
+	<CRMRetail>
+	</CRMRetail>
+	<GZTEduDetail Is211="" Is985="">
+	</GZTEduDetail>
+	<Instinct FlgTrigA="0" FlgTrigB="0" InstinctFlag="C" InstinctName="W99" InstinctScore="0">
+	</Instinct>
+	<PRIDetail ADMDecisionRst="RA" ResponseType="DEBIT" RuleDecisionRst="未触发" ScoreDecisionRst="" ScoreST="43.00">
+	</PRIDetail>
+	<GZTMobileDetail Code="0" NewInusetime="1" NewInusetimemsg="小于等于1当月入网" NewTelstatus="1">
+	</GZTMobileDetail>
+	<TheFirstCheckDetail FlagDuplicateAddress="0" FlagRiskDenyApp="0" Latest3DaysApplyTimesOnline="44" Latest6MonthApplyTimesOnline="44" Latest6MonthsDenyTimes="736" PhoneMatchDenyFlag="1">
+	</TheFirstCheckDetail>
+	<WhiteList Decision="A" DecisionReasonCode="">
+	</WhiteList>
+	<InviteCustomerDetail ApprovalType="0">
+	</InviteCustomerDetail>
+	<FixedPhoneDetail>
+	</FixedPhoneDetail>
+	<TencentDetail>
+	</TencentDetail>
+	<Strategy StrategyRandomDigit1="250" StrategyRandomDigit2="656" StrategyRandomDigit3="811" StrategyRandomDigit4="858" StrategyRandomDigit5="167" StrategyRandomDigit6="641" StrategyRandomDigit7="540" StrategyRandomDigit8="850" StrategyRandomDigit9="374">
+	</Strategy>
+	<TongDunDetail>
+	</TongDunDetail>
+	<PbocReport PbocReportFlag="Y">
+		<MessageHeader ReportCreateTime="2023-10-10" ReportSN="2023101016471984987284">
+		</MessageHeader>
+		<QueryReq Certno="110101199912120354" Certtype="身份证" Name="a测试用户" QueryReason="信用卡审批" UserCode="D10122610H0001">
+		</QueryReq>
+		<CreditScore PC010D01="无信贷记录" PC010Q02="-1" PC010S01="1">
+		</CreditScore>
+		<PC05A PC05AD01="商业银行" PC05AI01="D10122610H0001" PC05AQ01="信用卡审批" PC05AR01="2023-09-08">
+		</PC05A>
+		<QuerySummary Last1MonthsCreditCardQueryOrgSum="0" Last1MonthsCreditCardQuerySum="0" Last1MonthsLoanQueryOrgSum="0" Last1MonthsLoanQuerySum="0" Last1MonthsQuerySelfSum="0" Last2YearsGuarQuerySum="0" Last2YearsLoanManageQuerySum="0" Last2YearsSpeMerchQuerySum="0">
+		</QuerySummary>
+		<RecordDetail Querier="D10122610H0001" QueryDate="2023-09-08" QueryReason="信用卡审批" SequenceNum="1">
+		</RecordDetail>
+		<RecordDetail Querier="D10122610H0001" QueryDate="2023-08-31" QueryReason="信用卡审批" SequenceNum="2">
+		</RecordDetail>
+		<RecordDetail Querier="D10122610H0001" QueryDate="2023-04-13" QueryReason="信用卡审批" SequenceNum="3">
+		</RecordDetail>
+		<RecordDetail Querier="D10122610H0001" QueryDate="2023-04-12" QueryReason="信用卡审批" SequenceNum="4">
+		</RecordDetail>
+	</PbocReport>
+	<FICODetail Reason="1044,1043,1017,1018" Score="671">
+	</FICODetail>
+	<RelatedPerson RelPersonNumber="0">
+		<RelatedPersonDetail>
+		</RelatedPersonDetail>
+	</RelatedPerson>
+	<RelPersonPbocReport PbocReportFlag="N">
+	</RelPersonPbocReport>
+	<WholeImage AddedImageCount="0" IsHaveAddedImage="0">
+	</WholeImage>
+	<InterfaceInfo>
+		<DetailInfo InterfaceCode="02" InterfaceResult="0" InterfaceStag="stag2">
+		</DetailInfo>
+		<DetailInfo InterfaceCode="03" InterfaceResult="0" InterfaceStag="stag2">
+		</DetailInfo>
+		<DetailInfo InterfaceCode="04" InterfaceResult="0" InterfaceStag="stag2">
+		</DetailInfo>
+		<DetailInfo InterfaceCode="05" InterfaceResult="0" InterfaceStag="stag2">
+		</DetailInfo>
+		<DetailInfo InterfaceCode="06" InterfaceResult="0" InterfaceStag="stag2">
+		</DetailInfo>
+		<DetailInfo InterfaceCode="07" InterfaceResult="0" InterfaceStag="stag2">
+		</DetailInfo>
+		<DetailInfo InterfaceCode="08" InterfaceResult="0" InterfaceStag="stag2">
+		</DetailInfo>
+		<DetailInfo InterfaceCode="09" InterfaceResult="0" InterfaceStag="stag2">
+		</DetailInfo>
+		<DetailInfo InterfaceCode="11" InterfaceResult="0" InterfaceStag="stag2">
+		</DetailInfo>
+	</InterfaceInfo>
+	<PAIEstimateDetail>
+	</PAIEstimateDetail>
+	<BaiRongDetail>
+	</BaiRongDetail>
+	<CustomerAmt CardFMTAmt="80000.00" CardMTAmt="0" LoanAmt="80000.00">
+	</CustomerAmt>
+	<AccFundPBOC>
+	</AccFundPBOC>
+	<JBXDetail AScore="-99" AScoreType="-99" CScore="-99" VefContPay="-99" VefEnterprise="-99">
+	</JBXDetail>
+	<DecisionResponse>
+		<ScoreModelReturnInfo AssociationID="202212151000002" CharacteristicCount="10" FinalScore="592.0" InitialScore="471.0" RawScore="121.0" ScoreDateTime="2023-11-02T16:30:43.615" ScoreModelID="phone" ScoreModelName="线下普惠金ONE评分卡" UnexpectedCount="1" VersionID="">
+			<ScoredCharacteristic BaselineScore="0.0" BinLabel="所有其它" Characteristic="string01" CharacteristicName="人行最高学历" MappedFieldName="HighestEdu" MaxBinScore="29.0" PartialScore="0.0" UnexpectedValueFlag="true">
+			</ScoredCharacteristic>
+			<ScoredCharacteristic BaselineScore="0.0" BinLabel="" Characteristic="string02" CharacteristicName="最近1个月内的查询次数本人查询" CharacteristicValue="0" MappedFieldName="Last1MonthsQuerySelfSum_最近1个月内的查询次数本人查询" MaxBinScore="27.0" PartialScore="27.0" UnexpectedValueFlag="false">
+			</ScoredCharacteristic>
+			<ScoredCharacteristic BaselineScore="0.0" BinLabel="" Characteristic="real01" CharacteristicName="公积金缴存倒推收入" CharacteristicValue="0.0" MappedFieldName="LatestIncome" MaxBinScore="26.0" PartialScore="2.0" UnexpectedValueFlag="false">
+			</ScoredCharacteristic>
+			<ScoredCharacteristic BaselineScore="0.0" BinLabel="" Characteristic="real02" CharacteristicName="人民币最大负债机构数占比" CharacteristicValue="-3.0" MappedFieldName="CorgMaxDebitPer" MaxBinScore="15.0" PartialScore="5.0" UnexpectedValueFlag="false">
+			</ScoredCharacteristic>
+			<ScoredCharacteristic BaselineScore="0.0" BinLabel="" Characteristic="real03" CharacteristicName="最大机构额度使用率" CharacteristicValue="-9999.0" MappedFieldName="CorgCntImtpctMax" MaxBinScore="16.0" PartialScore="10.0" UnexpectedValueFlag="false">
+			</ScoredCharacteristic>
+			<ScoredCharacteristic BaselineScore="0.0" BinLabel="" Characteristic="real04" CharacteristicName="最大查询次数的最早出现日期距今月份数" CharacteristicValue="0.0" MappedFieldName="CxMxCnt1mfstdlc" MaxBinScore="17.0" PartialScore="5.0" UnexpectedValueFlag="false">
+			</ScoredCharacteristic>
+			<ScoredCharacteristic BaselineScore="0.0" BinLabel="" Characteristic="real05" CharacteristicName="近12期的查询机构数" CharacteristicValue="0.0" MappedFieldName="CxOrg12mlcd" MaxBinScore="40.0" PartialScore="40.0" UnexpectedValueFlag="false">
+			</ScoredCharacteristic>
+			<ScoredCharacteristic BaselineScore="0.0" BinLabel="" Characteristic="real06" CharacteristicName="非银信用贷款笔数" CharacteristicValue="0.0" MappedFieldName="LcntxyAll" MaxBinScore="9.0" PartialScore="9.0" UnexpectedValueFlag="false">
+			</ScoredCharacteristic>
+			<ScoredCharacteristic BaselineScore="0.0" BinLabel="" Characteristic="real07" CharacteristicName="贷款笔均" CharacteristicValue="-3.0" MappedFieldName="LmtcntIng" MaxBinScore="19.0" PartialScore="11.0" UnexpectedValueFlag="false">
+			</ScoredCharacteristic>
+			<ScoredCharacteristic BaselineScore="0.0" BinLabel="" Characteristic="real08" CharacteristicName="近6个月新增消费贷款最大期数" CharacteristicValue="0.0" MappedFieldName="LqsMaxAll" MaxBinScore="12.0" PartialScore="12.0" UnexpectedValueFlag="false">
+			</ScoredCharacteristic>
+		</ScoreModelReturnInfo>
+		<ScoreModelReturnInfo AssociationID="202212151000002" CharacteristicCount="10" FinalScore="684.0" InitialScore="596.0" RawScore="88.0" ScoreDateTime="2023-11-02T16:30:43.62" ScoreModelID="phtwo" ScoreModelName="线下普惠金TWO评分卡" UnexpectedCount="0" VersionID="">
+			<ScoredCharacteristic BaselineScore="0.0" BinLabel="" Characteristic="string01" CharacteristicName="最近1个月内的查询次数本人查询" CharacteristicValue="0" MappedFieldName="Last1MonthsQuerySelfSum_最近1个月内的查询次数本人查询" MaxBinScore="14.0" PartialScore="14.0" UnexpectedValueFlag="false">
+			</ScoredCharacteristic>
+			<ScoredCharacteristic BaselineScore="0.0" BinLabel="" Characteristic="real01" CharacteristicName="公积金缴存倒推收入" CharacteristicValue="0.0" MappedFieldName="LatestIncome" MaxBinScore="28.0" PartialScore="-2.0" UnexpectedValueFlag="false">
+			</ScoredCharacteristic>
+			<ScoredCharacteristic BaselineScore="0.0" BinLabel="" Characteristic="real02" CharacteristicName="信用卡本期实还比例" CharacteristicValue="-3.0" MappedFieldName="ClmtShxzPct" MaxBinScore="16.0" PartialScore="1.0" UnexpectedValueFlag="false">
+			</ScoredCharacteristic>
+			<ScoredCharacteristic BaselineScore="0.0" BinLabel="" Characteristic="real03" CharacteristicName="各机构级修正共享额度平均" CharacteristicValue="-3.0" MappedFieldName="CorgFixslmtAvg" MaxBinScore="22.0" PartialScore="-39.0" UnexpectedValueFlag="false">
+			</ScoredCharacteristic>
+			<ScoredCharacteristic BaselineScore="0.0" BinLabel="" Characteristic="real04" CharacteristicName="人民币最大负债机构数占比" CharacteristicValue="-3.0" MappedFieldName="CorgMaxDebitPer" MaxBinScore="16.0" PartialScore="16.0" UnexpectedValueFlag="false">
+			</ScoredCharacteristic>
+			<ScoredCharacteristic BaselineScore="0.0" BinLabel="" Characteristic="real05" CharacteristicName="最大机构额度使用率" CharacteristicValue="-9999.0" MappedFieldName="CorgCntImtpctMax" MaxBinScore="15.0" PartialScore="9.0" UnexpectedValueFlag="false">
+			</ScoredCharacteristic>
+			<ScoredCharacteristic BaselineScore="0.0" BinLabel="" Characteristic="real06" CharacteristicName="最近25个月贷记卡贷款查询加权平均机构数" CharacteristicValue="0.0" MappedFieldName="CxWorgl25mlc" MaxBinScore="85.0" PartialScore="85.0" UnexpectedValueFlag="false">
+			</ScoredCharacteristic>
+			<ScoredCharacteristic BaselineScore="0.0" BinLabel="" Characteristic="real07" CharacteristicName="非信用类贷款之和" CharacteristicValue="-9999.0" MappedFieldName="LmtnxyAll" MaxBinScore="26.0" PartialScore="4.0" UnexpectedValueFlag="false">
+			</ScoredCharacteristic>
+			<ScoredCharacteristic BaselineScore="0.0" BinLabel="" Characteristic="real08" CharacteristicName="贷款笔均" CharacteristicValue="-3.0" MappedFieldName="LmtcntIng" MaxBinScore="8.0" PartialScore="8.0" UnexpectedValueFlag="false">
+			</ScoredCharacteristic>
+			<ScoredCharacteristic BaselineScore="0.0" BinLabel="" Characteristic="real09" CharacteristicName="房车贷收入" CharacteristicValue="-9999.0" MappedFieldName="HcIncome" MaxBinScore="18.0" PartialScore="-8.0" UnexpectedValueFlag="false">
+			</ScoredCharacteristic>
+		</ScoreModelReturnInfo>
+	</DecisionResponse>
+	<ProcessingHistory DecisionArea="offline" ElapsedMillis="146" StartTimestamp="2023-11-02T16:30:43.502" StopTimestamp="2023-11-02T16:30:43.648">
+		<DecisionFlowHistory FlowName="线下主流程决策流">
+			<DecisionFlowStepHistory FunctionResult="" ImplementationName="线下主流程输出结构初始化" ImplementationType="函数集" StepIndex="1">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory ImplementationName="线下人行衍生变量序列集1" ImplementationType="序列集" StepIndex="2">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory FunctionResult="" ImplementationName="人行分数计算函数" ImplementationType="函数集" StepIndex="3">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory FunctionResult="" ImplementationName="计算MOB1" ImplementationType="函数集" StepIndex="4">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory FunctionResult="" ImplementationName="有无人行标识1" ImplementationType="函数集" StepIndex="5">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory FunctionResult="" ImplementationName="有无有效人行标识1" ImplementationType="函数集" StepIndex="6">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory FunctionResult="" ImplementationName="贷款贷记卡近24个月还款状态" ImplementationType="函数集" StepIndex="7">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory FunctionResult="" ImplementationName="计算贷记卡近12月最大逾期期数1" ImplementationType="函数集" StepIndex="8">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory FunctionResult="" ImplementationName="计算账户近12月最大逾期期数" ImplementationType="函数集" StepIndex="9">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory FunctionResult="" ImplementationName="贷记卡账龄大于6且未逾期的账户数占比1" ImplementationType="函数集" StepIndex="10">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory FunctionResult="" ImplementationName="账龄大于3且未逾期的账户数占比1" ImplementationType="函数集" StepIndex="11">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory FunctionResult="" ImplementationName="信用卡贷款最近3个月查询次数" ImplementationType="函数集" StepIndex="12">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory FunctionResult="" ImplementationName="贷记卡还款率1" ImplementationType="函数集" StepIndex="13">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory FunctionResult="" ImplementationName="贷款贷记卡最近一次逾期距今月数1" ImplementationType="函数集" StepIndex="14">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory FunctionResult="" ImplementationName="开着的房贷笔数1" ImplementationType="函数集" StepIndex="15">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory FunctionResult="" ImplementationName="贷记卡账龄最大值1" ImplementationType="函数集" StepIndex="16">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory FunctionResult="" ImplementationName="贷记卡近6月查询次数与发卡数与查询次数占比1" ImplementationType="函数集" StepIndex="17">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory FunctionResult="" ImplementationName="贷记卡近3月查询次数与发卡数与查询次数占比1" ImplementationType="函数集" StepIndex="18">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory FunctionResult="" ImplementationName="贷记卡贷款账龄最大值1" ImplementationType="函数集" StepIndex="19">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory FunctionResult="" ImplementationName="状态为开着的贷记卡透支余额与共享授信额度比率1" ImplementationType="函数集" StepIndex="20">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory FunctionResult="" ImplementationName="申请人账单地址清洗" ImplementationType="函数集" StepIndex="21">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory FunctionResult="" ImplementationName="人行地址清洗计算" ImplementationType="函数集" StepIndex="22">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory FunctionResult="" ImplementationName="人行次级地址清洗计算" ImplementationType="函数集" StepIndex="23">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory FunctionResult="" ImplementationName="计算账单地址匹配度" ImplementationType="函数集" StepIndex="24">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory FunctionResult="" ImplementationName="计算账单地址最终匹配度" ImplementationType="函数集" StepIndex="25">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory FunctionResult="" ImplementationName="申请人单位名称清洗" ImplementationType="函数集" StepIndex="26">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory FunctionResult="" ImplementationName="公积金名称匹配" ImplementationType="函数集" StepIndex="27">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory FunctionResult="" ImplementationName="社保公司名称匹配" ImplementationType="函数集" StepIndex="28">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory ImplementationName="人行公司名称匹配" ImplementationType="函数集" StepIndex="29">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory FunctionResult="" ImplementationName="人行公司名称最终匹配" ImplementationType="函数集" StepIndex="30">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory FunctionResult="" ImplementationName="贷记卡最近一次逾期距今月数1" ImplementationType="函数集" StepIndex="31">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory FunctionResult="" ImplementationName="信用卡最近3个月查询次数" ImplementationType="函数集" StepIndex="32">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory FunctionResult="0" ImplementationName="贷记卡额度使用率1" ImplementationType="函数集" StepIndex="33">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory FunctionResult="0" ImplementationName="计算最大逾期为零的账户数占比1" ImplementationType="函数集" StepIndex="34">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory FunctionResult="" ImplementationName="额度使用率大于等于1的占比1" ImplementationType="函数集" StepIndex="35">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory FunctionResult="" ImplementationName="最大逾期大于零的月数和1_121" ImplementationType="函数集" StepIndex="36">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory FunctionResult="" ImplementationName="最大逾期大于等于1的月数和1_61" ImplementationType="函数集" StepIndex="37">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory FunctionResult="" ImplementationName="计算逾期大于等于1的月数占比1" ImplementationType="函数集" StepIndex="38">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory FunctionResult="" ImplementationName="房贷笔数1" ImplementationType="函数集" StepIndex="39">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory ImplementationName="性别与婚姻交叉决策表" ImplementationType="决策表" StepIndex="40">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory FunctionResult="" ImplementationName="信用卡透支额度与共享额度比率1" ImplementationType="函数集" StepIndex="41">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory FunctionResult="" ImplementationName="线下贷款近12月查询次数" ImplementationType="函数集" StepIndex="42">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory FunctionResult="" ImplementationName="线下贷款近6月查询次数" ImplementationType="函数集" StepIndex="43">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory FunctionResult="" ImplementationName="线下贷款近3月查询次数" ImplementationType="函数集" StepIndex="44">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory FunctionResult="" ImplementationName="线下信用卡近12月查询次数" ImplementationType="函数集" StepIndex="45">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory FunctionResult="" ImplementationName="本人查询异常" ImplementationType="函数集" StepIndex="46">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory FunctionResult="" ImplementationName="贷款未结清1" ImplementationType="函数集" StepIndex="47">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory FunctionResult="" ImplementationName="贷记卡与贷款总负债1" ImplementationType="函数集" StepIndex="48">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory FunctionResult="" ImplementationName="近1个月信贷审批查询次数" ImplementationType="函数集" StepIndex="49">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory FunctionResult="" ImplementationName="近6月信贷审批查询次数" ImplementationType="函数集" StepIndex="50">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory ImplementationName="线下策略序列集1" ImplementationType="序列集" StepIndex="51">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory FunctionResult="" ImplementationName="线下卡产品分类" ImplementationType="函数集" StepIndex="52">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory ImplementationName="随机数决策计算" ImplementationType="决策表" StepIndex="53">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory ImplementationName="人行不良决策树" ImplementationType="决策树" StepIndex="54">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory FunctionResult="" ImplementationName="人行征信不良1" ImplementationType="函数集" StepIndex="55">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory FunctionResult="" ImplementationName="人行不良策略补充" ImplementationType="函数集" StepIndex="56">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory FunctionResult="" ImplementationName="人行征信公共信息异常" ImplementationType="函数集" StepIndex="57">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory FunctionResult="" ImplementationName="我行存款客户有效标识" ImplementationType="函数集" StepIndex="58">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory FunctionResult="" ImplementationName="是否第三方标识" ImplementationType="函数集" StepIndex="59">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory FunctionResult="0" ImplementationName="线下快发人行手机是否匹配标识" ImplementationType="函数集" StepIndex="60">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory FunctionResult="" ImplementationName="我行零售手机是否一致标识" ImplementationType="函数集" StepIndex="61">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory FunctionResult="0" ImplementationName="人行房贷客户额度1" ImplementationType="函数集" StepIndex="62">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory FunctionResult="" ImplementationName="存款客户额度" ImplementationType="函数集" StepIndex="63">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory ImplementationName="人行和零售手机一致性决策表" ImplementationType="决策表" StepIndex="64">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory FunctionResult="" ImplementationName="他行卡额度1" ImplementationType="函数集" StepIndex="65">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory ImplementationName="额度上下限决策表" ImplementationType="决策表" StepIndex="66">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory FunctionResult="" ImplementationName="是否有效第三方标识" ImplementationType="函数集" StepIndex="67">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory FunctionResult="" ImplementationName="贷记卡近6个月平均额度使用率1" ImplementationType="函数集" StepIndex="68">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory FunctionResult="" ImplementationName="高额度使用率标识1" ImplementationType="函数集" StepIndex="69">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory FunctionResult="0" ImplementationName="高额度使用率标识New" ImplementationType="函数集" StepIndex="70">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory FunctionResult="" ImplementationName="申请城市是否匹配" ImplementationType="函数集" StepIndex="71">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory FunctionResult="" ImplementationName="人行手机单名一致标识" ImplementationType="函数集" StepIndex="72">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory FunctionResult="" ImplementationName="人行手机和申请城市一致标识" ImplementationType="函数集" StepIndex="73">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory FunctionResult="" ImplementationName="贷记卡近查询次数是否过多" ImplementationType="函数集" StepIndex="74">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory FunctionResult="" ImplementationName="解析人行和零售手机一致决策" ImplementationType="函数集" StepIndex="75">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory FunctionResult="" ImplementationName="低保标识" ImplementationType="函数集" StepIndex="76">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory ImplementationName="岗位和行业交叉决策表" ImplementationType="决策表" StepIndex="77">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory FunctionResult="" ImplementationName="线下卡产品分类" ImplementationType="函数集" StepIndex="78">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory FunctionResult="" ImplementationName="线下重要存款户标识" ImplementationType="函数集" StepIndex="79">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory FunctionResult="" ImplementationName="线下过度授信" ImplementationType="函数集" StepIndex="80">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory FunctionResult="" ImplementationName="线下重要客户标识" ImplementationType="函数集" StepIndex="81">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory FunctionResult="" ImplementationName="线下特殊卡种标识" ImplementationType="函数集" StepIndex="82">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory FunctionResult="" ImplementationName="线下是否转人工标识" ImplementationType="函数集" StepIndex="83">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory ImplementationName="本地社保基数决策表" ImplementationType="决策表" StepIndex="84">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory ImplementationName="哈尔滨地区社保公司名称匹配" ImplementationType="函数集" StepIndex="85">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory FunctionResult="" ImplementationName="哈尔滨社保有效性标识" ImplementationType="函数集" StepIndex="86">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory FunctionResult="" ImplementationName="电话不符标识" ImplementationType="函数集" StepIndex="87">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory FunctionResult="" ImplementationName="线下贷款拖欠1" ImplementationType="函数集" StepIndex="88">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory FunctionResult="" ImplementationName="线下消费异常1" ImplementationType="函数集" StepIndex="89">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory FunctionResult="" ImplementationName="未结清信用免担保类贷款笔数及征信评分标识1" ImplementationType="函数集" StepIndex="90">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory FunctionResult="" ImplementationName="未结清信用免担保类贷款余额及近六个月额度使用率标识1" ImplementationType="函数集" StepIndex="91">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory ImplementationName="线下过度授信及额度控制决策树" ImplementationType="决策树" StepIndex="92">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory FunctionResult="" ImplementationName="线下普惠金产品过度授信" ImplementationType="函数集" StepIndex="93">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory FunctionResult="" ImplementationName="线下普惠金产品额度控制" ImplementationType="函数集" StepIndex="94">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory FunctionResult="0" ImplementationName="资产卡内评应用方案1" ImplementationType="函数集" StepIndex="95">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory FunctionResult="" ImplementationName="标准卡内评应用方案1" ImplementationType="函数集" StepIndex="96">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory FunctionResult="" ImplementationName="公检法不良判断" ImplementationType="函数集" StepIndex="97">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory ImplementationName="同盾灰名单规则映射表" ImplementationType="决策表" StepIndex="98">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory ImplementationName="同盾黑名单规则映射表" ImplementationType="决策表" StepIndex="99">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory FunctionResult="" ImplementationName="百融查询次数异常" ImplementationType="函数集" StepIndex="100">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory ImplementationName="企业股东单位名称匹配" ImplementationType="函数集" StepIndex="101">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory ImplementationName="企业法人单位名称匹配" ImplementationType="函数集" StepIndex="102">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory FunctionResult="" ImplementationName="线下单位名称匹配" ImplementationType="函数集" StepIndex="103">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory FunctionResult="" ImplementationName="记录评分卡得分" ImplementationType="函数集" StepIndex="104">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory ImplementationName="线下硬政策拒绝规则集1" ImplementationType="规则集" StepIndex="105">
+				<RulesetHistory RulesetCode="" RulesetName="线下硬政策拒绝规则集1">
+				</RulesetHistory>
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory ImplementationName="线下普惠金函数序列集" ImplementationType="序列集" StepIndex="106">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory FunctionResult="" ImplementationName="线下贷款未结清一普惠金函数" ImplementationType="函数集" StepIndex="107">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory FunctionResult="" ImplementationName="人行评分及信贷查询次数异常一普惠金函数" ImplementationType="函数集" StepIndex="108">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory FunctionResult="" ImplementationName="线下本人查询异常一普惠金函数" ImplementationType="函数集" StepIndex="109">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory ImplementationName="线下普惠金评分卡函数序列集" ImplementationType="序列集" StepIndex="110">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory FunctionResult="0" ImplementationName="人民币最大负债机构数占比函数" ImplementationType="函数集" StepIndex="111">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory ImplementationName="人行公积金收入函数" ImplementationType="函数集" StepIndex="112">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory FunctionResult="" ImplementationName="人行最高学历函数" ImplementationType="函数集" StepIndex="113">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory ImplementationName="信用卡本期实还比例函数" ImplementationType="函数集" StepIndex="114">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory ImplementationName="信用卡各机构级修正共享额度平均函数" ImplementationType="函数集" StepIndex="115">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory FunctionResult="" ImplementationName="小额贷款笔均函数" ImplementationType="函数集" StepIndex="116">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory FunctionResult="" ImplementationName="最大查询次数的最早出现日期距今月份数函数" ImplementationType="函数集" StepIndex="117">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory FunctionResult="" ImplementationName="最近25个月贷记卡贷款查询加权平均机构数函数" ImplementationType="函数集" StepIndex="118">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory ImplementationName="机构最大额度使用率函数" ImplementationType="函数集" StepIndex="119">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory FunctionResult="" ImplementationName="贷款笔均函数" ImplementationType="函数集" StepIndex="120">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory FunctionResult="" ImplementationName="近12个月的查询机构数函数" ImplementationType="函数集" StepIndex="121">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory FunctionResult="" ImplementationName="近6个月新增消费贷款最大期数函数" ImplementationType="函数集" StepIndex="122">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory FunctionResult="" ImplementationName="非信用贷款之和函数" ImplementationType="函数集" StepIndex="123">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory FunctionResult="" ImplementationName="非银信用贷款笔数函数" ImplementationType="函数集" StepIndex="124">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory FunctionResult="0.0" ImplementationName="房车贷推算收入函数" ImplementationType="函数集" StepIndex="125">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory ImplementationName="线下普惠金ONE评分卡" ImplementationType="评分卡" StepIndex="126">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory ImplementationName="线下普惠金TWO评分卡" ImplementationType="评分卡" StepIndex="127">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory FunctionResult="" ImplementationName="线下普惠金评分卡分数记录函数" ImplementationType="函数集" StepIndex="128">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory ImplementationName="线下普惠金金普标拒绝规则集" ImplementationType="规则集" StepIndex="129">
+				<RulesetHistory RulesetCode="" RulesetName="线下普惠金金普标拒绝规则集">
+				</RulesetHistory>
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory FunctionResult="" ImplementationName="是否需要查询FICO分" ImplementationType="函数集" StepIndex="130">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory FunctionResult="" ImplementationName="线下最终决策原因和原因代码计算" ImplementationType="函数集" StepIndex="131">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory FunctionResult="" ImplementationName="流程停止" ImplementationType="函数集" StepIndex="132">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory FunctionResult="520000,0,0,0,1200000,200000,0,0" ImplementationName="客户最高收入函数" ImplementationType="函数集" StepIndex="133">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory FunctionResult="" ImplementationName="最高可授信额度" ImplementationType="函数集" StepIndex="134">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory FunctionResult="" ImplementationName="线下橙心卡额度控制标识" ImplementationType="函数集" StepIndex="135">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory ImplementationName="线下转人工规则集" ImplementationType="规则集" StepIndex="136">
+				<RulesetHistory RulesetCode="" RulesetName="线下转人工规则集">
+					<RuleHistory RuleCode="" RuleName="B05在网时长过短">
+					</RuleHistory>
+					<RuleHistory RuleCode="" RuleName="F02申请人单位电话区号和单位地址城市区号不符">
+					</RuleHistory>
+				</RulesetHistory>
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory FunctionResult="" ImplementationName="线下计算最终决策原因和原因代码_最终" ImplementationType="函数集" StepIndex="137">
+			</DecisionFlowStepHistory>
+			<DecisionFlowStepHistory FunctionResult="0" ImplementationName="信审风险等级函数" ImplementationType="函数集" StepIndex="138">
+			</DecisionFlowStepHistory>
+		</DecisionFlowHistory>
+	</ProcessingHistory>
+	<HRBBOutput AllowAmount="1200000.0" AmtManaMaxAmount="4920000.0" AppCityMatchFlag="0" AppCorrectCompName="测试单位名称" ApplicationID="202212151000002" ApprovalDiff="H" CLoanBalAndSumUseAvgCC6="0" CLoanNumAndScore="0" CardLoanCheckCnt="0" CardProType="2" ClmtShxzPct="-3.0" CompMatch1="-9999.0" CompMatch2="-9999.0" CompanyNameMatch="0" CorgCntImtpctMax="-9999.0" CorgFixslmtAvg="-3.0" CorgMaxDebitPer="-3.0" CreditAmountControl="0" CreditCardAppCntTooMuch="0" CreditCardLatest12MonthQueryNumber="4" CreditCardLatest3MonthAndQueryRadio="0.0" CreditCardLatest3MonthQueryNumber="4" CreditCardLatest6MonthAndQueryRadio="0.0" CreditCardLatest6MonthQueryNumber="4" CreditDebt="-9999.0" CreditOverdueFlag="0" CxMxCnt1mfstdlc="0.0" CxOrg12mlcd="0.0" CxWorgl25mlc="0.0" DishonestPersonFlag="0" EndowmentInsuranceMatch="-9999.0" EnterpriseCompMatch="-9999.0" FICOCheckFlag="0" FinalAmount="0.0" FinalCompMatch="-9999.0" FinalDecision="M" Flag3rdparty="0" HRBBRetailAmount="0.0" HRBBRetailMobileFlag="1" HRBBRetailVaildFlag="0" HcIncome="-9999.0" HighAmountUseRatio="0" HouseLoanNum="-9999" HrbbIdentification="" ImportCRMCustomerFlag="0" ImportCustomerFlag="0" Income1="520000.0" Income2="0.0" Income3="0.0" Income4="0.0" Income5="1200000.0" Income6="200000.0" Income7="0.0" Income8="0.0" IsMUWFlag="0" LastOverdueMonthNum="-9999" LastOverdueMonthNum_CC="-9999" LatestIncome="0.0" LcntxyAll="0.0" LmtCntAll="-3.0" LmtcntIng="-3.0" LmtnxyAll="-9999.0" LoanAndCreditCardLatest1MonthQueryNumber="4" LoanCardMob6NotOverdueRatioAccts="-9999.0" LoanDueFlag="0" LoanLatest12MonthQueryNumber="0" LoanLatest3MonthQueryNumber="0" LoanLatest6MonthQueryNumber="0" LocalMinBasicMoney="5628.0" LqsMaxAll="0.0" MaxAcctsMob="-9999" MaxInCome="1200000.0" MaxSocSecCompMatch="-9998.0" Max_overdue_last12mon_cc="0" Max_overdue_last12mon_cl="0" Mob3NotOverdueRatioAccts="-9999.0" NoOverDueRatioAccts1to6Mon="-9999.0" OpenHouseLoanNum="-9999" OtherBankLoanAmount="0.0" OverCreditFlag="0" OverCreditFlag1="0" Overdue1NumMonth1to6="-9999" OverdueNumMonth1to12="-9999" OwnChechkTooMuch="0" PAIECheckFlag="1" PBOCCCFlag="0" PBOCCorrectAddr="" PBOCCorrectAddr1="" PBOCFlag="0" PBOCHouseLoanFlag="0" PBOCLoanFlag="0" PBOCPubInfoPBFlag="0" PBOCUnhealth="0" PBOCUnhealthReason="" PBOCUnhealthRev="0" PBOCVaildFlag="0" PRIStrategyFlag1="0" PRIStrategyFlag2="0" PayRatioCC="-9999.0" PhOneScore="592.0" PhTwoScore="684.0" PhoneMatchDenyFlag="0" PositionCodeAndIndustryCode="5" ProductMaxAmount="100000.0" ProductMinAmount="30000.0" QueryTimesAccts3Mon="4" QueryTimesAccts6Mon="4" QueryTimesCC3Mon="4" RHAndLocalPhoneFlag="00" RHHouseLoanAmount="0.0" RHMobileCNAddCityMatchFlag="2" RHMobileCNAddMatchFlag="2" RHMobileFlag="1" RatioOverdue24MonOpen="-9999.0" RiskLevel="L3" SalvationFlag="0" ScoreAndCardLoanCheckCnt="0" SexAndMarriage="MM" ShareHolderCompMatch="-9999.0" SocSecCompMatch1="-9998.0" SocSecCompMatch2="-9998.0" SocSecCompName="" SocialSecBaseMoney="0.0" SpeProNoFlag="0" StatementAddr="南岗区南四环西路89" StatementAddrMatch="-9999.0" StatementAddrMatch1="-9999.0" StrategyFlag1="0" StrategyFlag2="0" StrategyFlag3="0" StrategyFlag4="1" StrategyFlag5="0" StrategyFlag6="0" StrategyFlag7="0" StrategyFlag8="0" StrategyFlag9="0" SumUseAvg_CC_6="-9999.0" TheSameHRBBPhoneFlag="1" TheSameRHPhoneFlag="1" TongDunCheckTooMuch="0" UseRatio100RatioAcct="-9999.0" UseRatio_CC="-9999.0" Used_share_cc="-9999.0" Used_share_cc_OPEN="-9999.0" ValidFlag3rdparty="1" ValidSocialSec="0">
+		<DecisionReason Decision="M" PriorityLevel="0" ReasonCode="B05" ReasonText="在网时长过短">
+		</DecisionReason>
+		<DecisionReason Decision="M" PriorityLevel="0" ReasonCode="F02" ReasonText="申请人单位电话区号和单位地址城市区号不符">
+		</DecisionReason>
+	</HRBBOutput>
+	<MessageList StatusCode="1" StatusDescription="Successful">
+	</MessageList>
+	<RspCode>
+		000000
+	</RspCode>
+</Application>
