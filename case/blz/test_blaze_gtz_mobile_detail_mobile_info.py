@@ -4,14 +4,37 @@ from business.blz.blaze import Blaze
 from util import sqlutil
 
 
-def test_blaze():
+# , in_use_time_msg, in_use_time, tel_status,tel_status_msg
+
+@pytest.mark.parametrize(
+    "code, message",
+    [
+        ("0", "手机号、证件号、姓名均一致"),
+        ("1", "手机号、证件号一致、姓名不一致"),
+        ("2", "手机号、姓名一致、证件号不一致"),
+        ("3", "手机号一致、证件号、姓名不一致"),
+        ("-1", "已查无数据"),
+        ("-2", "查询异常"),
+        # ("111", "已查无数据"),  # 长度超过限制
+        # (1, "已查无数据"),  # 类型错误
+        # (None, "已查无数据"),  # 空值
+        ("", ""),  # 空值
+        ("4", ""),  # 枚举值之外的值
+
+    ])
+def test_blaze_gtz_mobile_detail_mobile_info(code, message):
     # 1.实例化对象并从json模板文件中初始数据
     blaze = Blaze()
     # 2.按需修改初始化数据
-    # blaze.request.sourceCode='stag1'
+    # blaze.request.applicationNumber = '202403181109931'
     # todo:xml soap标签无法通过对象属性方式访问
-    # blaze.request.Envelope.Body.Query.sourceCode='stag1'
+    # blaze.request.Envelope.Body.Query.applicationNumber ='202403181109931'
     blaze.request["soap:Envelope"]["soap:Body"]["Query"]["applicationNumber"] = "202403181109931"
+    print(blaze.request)
+
+    PostGreSqlUtils = sqlutil.PostGreSqlUtils()
+    sql1 = "UPDATE t_dc_mobile_info SET code = '" + code + "', message= '" + message + "' WHERE pid ='2024031112560751' "
+    PostGreSqlUtils.execute_sql(sql1, code, message)
 
     # 3.调用blaze接口
     response = blaze.query()
@@ -31,10 +54,16 @@ def test_blaze():
     assert blaze.has_element("PRIDetail"), 'Blaze响应缺少内评信息'
 
     assert blaze.has_element("GZTMobileDetail"), 'Blaze响应缺少手机在网信息'
+    assert blaze.get_property("GZTMobileDetail Code") == code, 'Blaze响应值不正确'
+    print(blaze.get_property("GZTMobileDetail Code"))
+    # assert blaze.get_property("NewInusetime") == "", 'Blaze响应值不正确'
+    # assert blaze.get_property("NewInusetimemsg") == "", 'Blaze响应NewInusetimemsg值不正确'
+    # assert blaze.get_property("NewTelstatus") == "", 'Blaze响应值不正确'
+
     assert blaze.has_element("TheFirstCheckDetail"), 'Blaze响应缺少征信衍生信息'
     # assert blaze.has_element("UnionpayDetail"),'Blaze响应缺少银联卡校验信息'
     assert blaze.has_element("InviteCustomerDetail"), 'Blaze响应缺少邀约办卡'
-    # assert blaze.has_element("PAIEstimateDetail"), 'Blaze响应缺少消费能力'
+    # assert blaze.has_element("PAIEstimateDetail"), 'Blaze响应缺少消费能力'!!!!!!
     # assert blaze.has_element("MeiTuanDetail"),'Blaze响应缺少美团信息'
     # assert blaze.has_element("Vehicles"),'Blaze响应缺少汽车信息'
     # assert blaze.has_element("VehicleParking"),'Blaze响应缺少汽车信息'
@@ -57,3 +86,7 @@ def test_blaze():
     assert blaze.get_property("ApplnMode") == "03", 'Blaze响应缺少发卡模式元素'
     print("Blaze接口自动化测试通过")
 
+
+# if __name__ == "__main__":
+
+#     test_blaze_gtz_mobile_detail_mobile_info(["-v", "-s"])

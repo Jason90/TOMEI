@@ -4,14 +4,39 @@ from business.blz.blaze import Blaze
 from util import sqlutil
 
 
-def test_blaze():
+
+@pytest.mark.parametrize(
+    "in_use_time, in_use_time_msg",
+    [
+        ("1", "小于等于1当月入网"),
+        ("2", "1（不含）-2个月"),
+        ("3", "2（不含）-6个月"),
+        ("4", "6（不含）-12个月"),
+        ("5", "12（不含）-24个月"),
+        ("6", "24个月以上"),
+        ("-1", "已查无数据"),
+        ("-2", "查询异常"),
+        ("1111", "已查无数据"),  # 长度超过限制  -1
+        # (1, "已查无数据"),  # 类型错误
+        # (None, "已查无数据"),  # 空值
+        ("", ""),  # 空值
+        ("7", ""),  # 枚举值之外的值
+
+    ])
+def test_blaze_gtz_mobile_detail_mobile_time(in_use_time, in_use_time_msg):
     # 1.实例化对象并从json模板文件中初始数据
     blaze = Blaze()
     # 2.按需修改初始化数据
-    # blaze.request.sourceCode='stag1'
+    # blaze.request.applicationNumber = '202403181109931'
     # todo:xml soap标签无法通过对象属性方式访问
-    # blaze.request.Envelope.Body.Query.sourceCode='stag1'
-    blaze.request["soap:Envelope"]["soap:Body"]["Query"]["applicationNumber"] = "202403181109931"
+    # blaze.request.Envelope.Body.Query.applicationNumber ='202403181109931'
+    blaze.request["soap:Envelope"]["soap:Body"]["Query"]["applicationNumber"] = "202401271200094"
+    print(blaze.request)
+
+    PostGreSqlUtils = sqlutil.PostGreSqlUtils()
+    sql1 = "UPDATE t_dc_mobile_time SET in_use_time_msg = '" + in_use_time_msg + "', in_use_time= '" + in_use_time + "' WHERE pid ='2024020412634901'"
+    # sql3 = "UPDATE t_dc_mobile_stat SET in_use_time_msg = " + in_use_time_msg + " WHERE pid ='2022121512000002'"
+    PostGreSqlUtils.execute_sql(sql1, in_use_time, in_use_time_msg)
 
     # 3.调用blaze接口
     response = blaze.query()
@@ -31,10 +56,15 @@ def test_blaze():
     assert blaze.has_element("PRIDetail"), 'Blaze响应缺少内评信息'
 
     assert blaze.has_element("GZTMobileDetail"), 'Blaze响应缺少手机在网信息'
+
+    assert blaze.get_property("NewInusetime") == in_use_time, 'Blaze响应值不正确'
+    assert blaze.get_property("NewInusetimemsg") == in_use_time_msg, 'Blaze响应NewInusetimemsg值不正确'
+    # assert blaze.get_property("NewTelstatus") == "", 'Blaze响应值不正确'
+
     assert blaze.has_element("TheFirstCheckDetail"), 'Blaze响应缺少征信衍生信息'
     # assert blaze.has_element("UnionpayDetail"),'Blaze响应缺少银联卡校验信息'
     assert blaze.has_element("InviteCustomerDetail"), 'Blaze响应缺少邀约办卡'
-    # assert blaze.has_element("PAIEstimateDetail"), 'Blaze响应缺少消费能力'
+    # assert blaze.has_element("PAIEstimateDetail"), 'Blaze响应缺少消费能力'!!!!!!
     # assert blaze.has_element("MeiTuanDetail"),'Blaze响应缺少美团信息'
     # assert blaze.has_element("Vehicles"),'Blaze响应缺少汽车信息'
     # assert blaze.has_element("VehicleParking"),'Blaze响应缺少汽车信息'

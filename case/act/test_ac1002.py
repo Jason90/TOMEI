@@ -11,7 +11,7 @@ def test_act_aps():
     #4.检查点
     assert response.SERVICE.SERVICE_HEADER.RSPCODE=='000000'
 
-    print(response.dumps())
+    # print(response.dumps())
     # assert response.status_code==200
     # assert act.getproperty("ApplnMode")=="05"
     # assert True

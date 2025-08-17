@@ -11,3 +11,4 @@ def test_sendmail():
     result=mail.send()
     #4.检查点
     assert result
+

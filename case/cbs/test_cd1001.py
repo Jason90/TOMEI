@@ -10,6 +10,7 @@ def test_cd1001():
     #4.检查点
     print(response.dumps())
     assert response.service.service_header.rsp_code=='000000'
-    assert '新卡' in response.service.service_body.cust_name 
+    assert '朱洪章' in response.service.service_body.cust_name 
     print("CD1001接口自动化测试通过")
+
     
